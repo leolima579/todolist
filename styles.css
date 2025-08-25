@@ -7,3 +7,42 @@ body {
 h1 {
     color: #0056b3;
 }
+
+#app {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+#taskInput {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: calc(100% - 100px); /* Ajuste conforme necessário */
+    margin-right: 10px;
+}
+#addTaskButton {
+    padding: 10px 15px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+#addTaskButton:hover {
+    background-color: #218838;
+}
+ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+li {
+    background-color: #e9ecef;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
